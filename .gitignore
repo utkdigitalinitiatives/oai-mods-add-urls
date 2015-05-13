@@ -1,0 +1,9 @@
+# git ignore
+
+# ignore IDEA stuff
+.idea
+*.iml
+
+# ignore Vim stuff
+.*.swp
+*~

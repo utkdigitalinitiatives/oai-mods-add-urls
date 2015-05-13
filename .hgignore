@@ -1,0 +1,10 @@
+# hg ignore
+syntax: glob
+
+# ignore IDEA stuff
+.idea
+*.iml
+
+# ignore Vim stuff
+.*.swp
+.*~
