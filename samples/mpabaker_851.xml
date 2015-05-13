@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <titleInfo>
+    <title>Howard Baker during Watergate Hearings</title>
+  </titleInfo>
+  <name>
+    <namePart>unknown</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>still image</typeOfResource>
+  <genre authority="dct">image</genre>
+  <subject>
+    <topic>Baker, Howard H., Jr. (Howard Henry), 1925-2014</topic>
+  </subject>
+  <subject>
+    <topic>Watergate Affair, 1972-1974 </topic>
+  </subject>
+  <subject>
+    <geographic>Watergate Trial, Washington, D.C., 1973. </geographic>
+  </subject>
+  <originInfo>
+    <publisher>The University of Tennessee Libraries, Knoxville</publisher>
+  </originInfo>
+  <originInfo>
+    <dateOther>1973</dateOther>
+  </originInfo>
+  <physicalDescription>
+    <internetMediaType>image/jpeg</internetMediaType>
+  </physicalDescription>
+  <identifier type="local">0012_000159_000268</identifier>
+  <relatedItem type="original">
+    <titleInfo>
+      <title>Howard H. Baker Jr. Papers, MPA.101. The University of Tennessee Libraries, Special Collections, Knoxville</title>
+    </titleInfo>
+  </relatedItem>
+  <relatedItem>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/bakercollection</url>
+    </location>
+    <identifer type="uri">http://digital.lib.utk.edu/collections/bakercollection</identifer>
+  </relatedItem>
+  <accessCondition>The copyright interests for this photograph remain with the creator. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A851</identifier>
+</mods>

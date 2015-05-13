@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <identifier type="local">KDP_2354</identifier>
+  <identifier type="filename">KDP_2354.jp2</identifier>
+  <name usage="primary">
+    <namePart>Hull, George</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+    </role>
+  </name>
+  <titleInfo>
+    <title>Estes and Nancy Kefauver at Lookout Mountain, 1939 or 1940</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <originInfo>
+    <place supplied="yes">
+      <placeTerm type="text" valueURI="http://id.loc.gov/authorities/names/n95053102">Lookout Mountain (Tenn.)</placeTerm>
+    </place>
+    <dateCreated>1940</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes">1940</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>1 photograph</extent>
+    <form authority="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+    <internetMediaType>image/jp2</internetMediaType>
+  </physicalDescription>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">zxx</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+  </location>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n79144615">
+      <namePart>Kefauver, Estes, 1903-1963</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no2008122950">
+      <namePart>Kefauver, Nancy, 1912-1967</namePart>
+    </name>
+  </subject>
+  <subject>
+    <geographic>Lookout Mountain (Tenn.)</geographic>
+    <cartographics>
+      <coordinates>34.99417N, 85.34944W</coordinates>
+    </cartographics>
+  </subject>
+  <relatedItem type="host" displayLabel="Project">
+    <titleInfo>
+      <title>Estes Kefauver Image Collection</title>
+    </titleInfo>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/kefauvercollection</url>
+    </location>
+  </relatedItem>
+  <relatedItem type="host" displayLabel="Collection">
+    <titleInfo>
+      <title>Estes Kefauver Papers, 1925 - 1967</title>
+    </titleInfo>
+    <identifier type="local">MPA.144</identifier>
+  </relatedItem>
+  <accessCondition type="use and reproduction">The copyright interests in this item remain with the creator. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_KDP_2354</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+    <recordChangeDate encoding="edtf">2015-04-02</recordChangeDate>
+  </recordInfo>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/kefauver%3A150412206</identifier>
+</mods>

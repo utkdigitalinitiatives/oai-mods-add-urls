@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <identifier type="local">0016_000050_000207_0001</identifier>
+  <identifier type="filename">0016_000050_000207_0001.jp2</identifier>
+  <name>
+    <namePart>unknown</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+    </role>
+  </name>
+  <titleInfo>
+    <title>Embroidery Club</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <originInfo>
+    <dateCreated>approximately between 1890 and 1910</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes" point="start" qualifier="approximate">1890</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes" point="end">1910</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>1 digital image; 1 photograph; 6.5 x 4.5 inches</extent>
+    <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <internetMediaType>image/jp2</internetMediaType>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+  </physicalDescription>
+  <abstract>A group of women sit on the steps of an unidentified building.  Verso side of the photo reads:  Cleveland, Embroidery Club, near the turn of the century.</abstract>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>Cleveland State Community College. Southeast Tennessee Digital Archive</physicalLocation>
+    <holdingExternal>
+      <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+        <physicalAddress>
+          <text>City: Cleveland</text>
+          <text>County: Bradley County</text>
+          <text>State: Tennessee</text>
+        </physicalAddress>
+      </holding>
+    </holdingExternal>
+  </location>
+  <subject displayLabel="Broad Topics">
+    <topic>Family Life and Gender Relations</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Women</topic>
+  </subject>
+  <subject>
+    <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n81024913">Bradley County (Tenn.)</geographic>
+    <cartographics>
+      <coordinates>35.15000N, 84.86667W</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
+    <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>
+  </subject>
+  <relatedItem type="host" displayLabel="Project">
+    <titleInfo>
+      <title>Volunteer Voices</title>
+    </titleInfo>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/volvoices</url>
+    </location>
+  </relatedItem>
+  <relatedItem type="host" displayLabel="Collection">
+    <titleInfo>
+      <title>Cleveland Public Library History Branch Collection</title>
+    </titleInfo>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Public domain.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_0016_000050_000207_0001</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+    <recordCreationDate encoding="edtf">2007-12-17</recordCreationDate>
+    <recordChangeDate encoding="edtf">2015-03-23</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-03-31</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-04-01</recordChangeDate>
+  </recordInfo>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/volvoices%3A2142</identifier>
+</mods>

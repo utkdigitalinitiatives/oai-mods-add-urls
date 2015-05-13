@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+  <titleInfo>
+    <title>Howard Baker and Richard Nixon</title>
+  </titleInfo>
+  <name>
+    <namePart>United States. Congress. Senate</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>still image</typeOfResource>
+  <genre authority="dct">image</genre>
+  <subject>
+    <topic>Baker, Howard H., Jr. (Howard Henry), 1925-2014</topic>
+  </subject>
+  <subject>
+    <topic>Nixon, Richard M. (Richard Milhous), 1913-1994</topic>
+  </subject>
+  <subject>
+    <topic>Presidents--United States.</topic>
+  </subject>
+  <originInfo>
+    <publisher>The University of Tennessee Libraries, Knoxville</publisher>
+  </originInfo>
+  <originInfo>
+    <dateOther>unknown</dateOther>
+  </originInfo>
+  <physicalDescription>
+    <internetMediaType>image/jpeg</internetMediaType>
+  </physicalDescription>
+  <identifier type="local">0012_003587_000355</identifier>
+  <relatedItem type="original">
+    <titleInfo>
+      <title>Howard H. Baker Jr. Papers, MPA.101.001. The University of Tennessee Libraries, Special Collections, Knoxville</title>
+    </titleInfo>
+  </relatedItem>
+  <relatedItem>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/bakercollection</url>
+    </location>
+    <identifer type="uri">http://digital.lib.utk.edu/collections/bakercollection</identifer>
+  </relatedItem>
+  <accessCondition>Public domain.</accessCondition>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A747</identifier>
+</mods>
