@@ -20,7 +20,7 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    
+   
     <!-- 
         keep the mods:identifier(s), except for mods:identifier w/
         'http://', and add the mods:url elements to the pre-existing
@@ -52,13 +52,46 @@
         </xsl:copy>
     </xsl:template>
     
-  <xsl:template match="language">
+    <!-- 
+        drop the mods:identifier with the 'http://...'... or 
+        really, replace that unneeded mods:identifier with a mods:location
+        element that suits our purposes.
+        
+        there's a test to make sure that we don't add a second
+        mods:location if there's already one.
+    -->
+    <xsl:template match="/mods:mods/mods:identifier[starts-with(.,'http://')]">
+        <xsl:choose>
+            <!-- do we already have a top-level mods:location? -->
+            <xsl:when test="/mods:mods/mods:location"/>
+            <!-- if we don't, then this test runs -->
+            <xsl:when test="not(/mods:mods/mods:location)">
+                <xsl:element name="location">
+                    <xsl:element name="url">
+                        <xsl:attribute name="access">
+                            <xsl:value-of select="'object in context'"/>
+                        </xsl:attribute>
+                        <xsl:attribute name="usage">
+                            <xsl:value-of select="'primary display'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="."/>
+                    </xsl:element>
+                    <xsl:element name="url">
+                        <xsl:attribute name="access">
+                            <xsl:value-of select="'preview'"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat(.,'/datastream/TN/view')"/>
+                    </xsl:element>    
+                </xsl:element>                
+            </xsl:when>
+        </xsl:choose>
+    </xsl:template>
+    
+    <!-- language: watch it!! -->
+    <xsl:template match="language">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    
-    <!-- drop the mods:identifier with the 'http://...' -->
-    <xsl:template match="mods:identifier[starts-with(.,'http://')]"/>
     
 </xsl:stylesheet>

@@ -7,3 +7,6 @@
 # ignore Vim stuff
 .*.swp
 *~
+
+# ignore testing output
+xsl-mods-samples
