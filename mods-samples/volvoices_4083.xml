@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <identifier type="local">0117_000050_000237_0001</identifier>
+  <identifier type="filename">0117_000050_000237_0001.jp2</identifier>
+  <name type="personal">
+    <namePart>Newman, Robert D.</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+    </role>
+  </name>
+  <titleInfo>
+    <title>Photograph of posthole patterns of Cherokee winter and summer domestic houses at the former site of the mid-18th century Cherokee</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <originInfo>
+    <dateCreated>1978</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes">1978</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>1 digital image; 1 photograph</extent>
+    <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <internetMediaType>image/jp2</internetMediaType>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+  </physicalDescription>
+  <abstract>This is a photograph of posthole patterns of mid-18th century summer and winter domestic dwellings from the Overhill Cherokee town of Citico. As was common in most Overhill villages winter houses were built in a circular dome structure which contained a central hearth for fire. Adjacent to the winter home was an open rectangular summer pavilion used in warm weather. Excavations were conducted by the University of Tennessee in 1978 in anticipation of the flooding of the lower Little Tennessee River by the Tellico Dam Reservoir. The excavations were conducted under contract with the National Park Service and the Tennessee Valley Authority (TVA). Principal investigator, Jefferson Chapman. Field Director, Robert D. Newman.</abstract>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>Frank H. McClung Museum (Knoxville, Tenn.)</physicalLocation>
+    <holdingExternal>
+      <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+        <physicalAddress>
+          <text>City: Knoxville</text>
+          <text>County: Knox County</text>
+          <text>State: Tennessee</text>
+        </physicalAddress>
+      </holding>
+    </holdingExternal>
+  </location>
+  <subject authority="lcsh">
+    <topic>Overhill Cherokee villages</topic>
+  </subject>
+  <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
+    <topic>Cherokee Indians</topic>
+  </subject>
+  <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85023080">
+    <topic>Cherokee Indians</topic>
+  </subject>
+  <subject authority="fast" valueURI="http://id.worldcat.org/fast/899978">
+    <topic>Dwellings</topic>
+  </subject>
+  <subject authority="fast" valueURI="http://id.worldcat.org/fast/957846">
+    <topic>Historic sites</topic>
+  </subject>
+  <subject authority="fast" valueURI="http://id.worldcat.org/fast/958715">
+    <topic>Holes</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Native Americans</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Architecture</topic>
+  </subject>
+  <subject>
+    <name>
+      <namePart>Chapman, Jefferson</namePart>
+    </name>
+  </subject>
+  <subject>
+    <geographic authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh95010016">Little Tennessee River Valley (Ga.-Tenn.)</geographic>
+  </subject>
+  <subject>
+    <geographic>Tellico Lake Region (Tenn.)</geographic>
+  </subject>
+  <subject>
+    <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n80037799">Monroe County (Tenn.)</geographic>
+    <cartographics>
+      <coordinates>35.45000N,  84.23333W</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
+    <temporal>Era 2 - Colonization and Settlement (1585-1763)</temporal>
+  </subject>
+  <relatedItem type="host" displayLabel="Project">
+    <titleInfo>
+      <title>Volunteer Voices</title>
+    </titleInfo>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/volvoices</url>
+    </location>
+  </relatedItem>
+  <relatedItem type="host" displayLabel="Collection">
+    <titleInfo>
+      <title>Frank H. McClung Museum Photographic Collection</title>
+    </titleInfo>
+  </relatedItem>
+  <accessCondition type="use and reproduction">May be protected by copyright. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_0117_000050_000237_0001</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+    <recordCreationDate encoding="edtf">2008-04-25</recordCreationDate>
+    <recordChangeDate encoding="edtf">2015-03-23</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-03-31</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-04-01</recordChangeDate>
+  </recordInfo>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/volvoices%3A4083</identifier>
+</mods>

@@ -94,4 +94,17 @@
         </xsl:copy>
     </xsl:template>
     
+    <!-- 
+        fixing mods:recordContentSource for DPLA. 
+        
+        matches on recordContentSource, but only when there's a preceding relatedItem, with a @host and @Project, 
+        with a title descendent element containing Volunteer Voices. 
+        
+        this *can* be run against other MODS files without ill effects.
+    -->
+    <xsl:template match="/mods:mods/mods:recordInfo/mods:recordContentSource[preceding::mods:relatedItem[@type='host'][@displayLabel='Project']/mods:titleInfo/mods:title[contains(.,'Volunteer Voices')]]">
+        <xsl:copy>
+            <xsl:apply-templates select="/mods:mods/mods:location/mods:physicalLocation/text()"/>
+        </xsl:copy>
+    </xsl:template>
 </xsl:stylesheet>

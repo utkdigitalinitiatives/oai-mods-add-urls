@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+  <identifier type="local">0061_000050_000210_0001</identifier>
+  <identifier type="filename">0061_000050_000210_0001.jp2</identifier>
+  <name>
+    <namePart>unknown</namePart>
+    <role>
+      <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/pht">Photographer</roleTerm>
+    </role>
+  </name>
+  <titleInfo>
+    <nonSort>The </nonSort>
+    <title>Guard at the Mountain Branch of the National Home for Disabled Volunteer Soldiers</title>
+  </titleInfo>
+  <typeOfResource>still image</typeOfResource>
+  <originInfo>
+    <dateCreated>1921</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes">1921</dateCreated>
+  </originInfo>
+  <physicalDescription>
+    <extent>1 digital image; 1 photograph</extent>
+    <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <internetMediaType>image/jp2</internetMediaType>
+    <digitalOrigin>reformatted digital</digitalOrigin>
+  </physicalDescription>
+  <abstract>The police force (or gurad) stand in front of a building at the National Home for Disabled Volunteer Soldiers in Mountain Home, Tennessee.</abstract>
+  <language>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>Museum at Mountain Home</physicalLocation>
+    <holdingExternal>
+      <holding xmlns:iso20775="info:ofi/fmt:xml:xsd:iso20775" xsi:schemaLocation="info:ofi/fmt:xml:xsd:iso20775 http://www.loc.gov/standards/iso20775/N130_ISOholdings_v6_1.xsd">
+        <physicalAddress>
+          <text>City: Mountain Home</text>
+          <text>County: Washington County</text>
+          <text>State: Tennessee</text>
+        </physicalAddress>
+      </holding>
+    </holdingExternal>
+  </location>
+  <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85140385">
+    <topic>United States--National Guard</topic>
+  </subject>
+  <subject authority="lcsh" valueURI="http://id.loc.gov/authorities/subjects/sh85062405">
+    <topic>Veterans' hospitals</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Wars and Military</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Law and Legal Documents</topic>
+  </subject>
+  <subject displayLabel="Broad Topics">
+    <topic>Health and Medicine</topic>
+  </subject>
+  <subject>
+    <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79071806">Johnson City (Tenn.)</geographic>
+    <cartographics>
+      <coordinates>36.31333N, 82.35361W</coordinates>
+    </cartographics>
+  </subject>
+  <subject displayLabel="Tennessee Social Studies K-12 Eras in American History">
+    <temporal>Era 7 - The Emergence of Modern America (1890-1930)</temporal>
+  </subject>
+  <relatedItem type="host" displayLabel="Project">
+    <titleInfo>
+      <title>Volunteer Voices</title>
+    </titleInfo>
+    <location>
+      <url>http://digital.lib.utk.edu/collections/volvoices</url>
+    </location>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Public domain.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_0061_000050_000210_0001</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Special Collections</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+    <recordCreationDate encoding="edtf">2007-12-07</recordCreationDate>
+    <recordChangeDate encoding="edtf">2015-03-23</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-03-31</recordChangeDate>
+    <recordChangeDate encoding="edtf">2015-04-01</recordChangeDate>
+  </recordInfo>
+  <identifier>http://digital.lib.utk.edu/collections/islandora/object/volvoices%3A2890</identifier>
+</mods>
