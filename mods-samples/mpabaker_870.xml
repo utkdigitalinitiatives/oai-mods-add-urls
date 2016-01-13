@@ -1,52 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+  <identifier type="local">mpabaker_870</identifier>
+  <identifier type="local">mpabaker:870</identifier>
+  <identifier type="local">0012_003587_000344</identifier>
+  <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n93097922">
+    <namePart>White House Administrative Office (U.S.)</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+    </role>
+  </name>
   <titleInfo>
     <title>Howard Baker, George Bush, Bob Dole, and Coretta Scott King</title>
   </titleInfo>
-  <name>
-    <namePart>White House Administrative Office (U.S.)</namePart>
-    <role>
-      <roleTerm type="text">creator</roleTerm>
-    </role>
-  </name>
   <typeOfResource>still image</typeOfResource>
-  <genre authority="dct">image</genre>
-  <subject>
-    <topic>Baker, Howard H., Jr. (Howard Henry), 1925-2014</topic>
-  </subject>
-  <subject>
-    <topic>Bush, George, 1924-</topic>
-  </subject>
-  <subject>
-    <topic>Dole, Robert J., 1923-</topic>
-  </subject>
-  <subject>
-    <topic>King, Coretta Scott, 1927-2006</topic>
-  </subject>
-  <subject>
-    <topic>Presidents--United States.</topic>
-  </subject>
   <originInfo>
-    <publisher>The University of Tennessee Libraries, Knoxville</publisher>
-  </originInfo>
-  <originInfo>
-    <dateOther>1983</dateOther>
+    <dateCreated>1983</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes">1983</dateCreated>
   </originInfo>
   <physicalDescription>
-    <internetMediaType>image/jpeg</internetMediaType>
+    <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <digitalOrigin>reformatted digital</digitalOrigin>
   </physicalDescription>
-  <identifier type="local">0012_003587_000344</identifier>
-  <relatedItem type="original">
+  <language>
+    <languageTerm authority="iso639-2b" type="code">zxx</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+  </location>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80015572">
+      <namePart>Baker, Howard H., Jr. (Howard Henry), 1925-2014</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n80015879">
+      <namePart>Bush, George, 1924-</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n81117511">
+      <namePart>Dole, Robert J., 1923-</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n50049525">
+      <namePart>King, Coretta Scott, 1927-2006</namePart>
+    </name>
+  </subject>
+  <relatedItem displayLabel="Project" type="host">
     <titleInfo>
-      <title>Howard H. Baker Jr. Papers, MPA.101.001. The University of Tennessee Libraries, Special Collections, Knoxville</title>
+      <title>Photographs from the Life and Career of Howard Baker</title>
     </titleInfo>
-  </relatedItem>
-  <relatedItem>
     <location>
       <url>http://digital.lib.utk.edu/collections/bakercollection</url>
     </location>
-    <identifer type="uri">http://digital.lib.utk.edu/collections/bakercollection</identifer>
+    <abstract>Howard Baker, Jr., was a U.S. Senator from East Tennessee. Perhaps more than any other United States senator, he is known for his civility and non-partisanship in American politics. A Republican, Baker rose to national fame by investigating Richard Nixon during the televised Watergate hearings. He went on to become minority and majority leader of the Senate and one of Ronald Reagan</abstract>
   </relatedItem>
-  <accessCondition>Public domain.</accessCondition>
-  <identifier>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A870</identifier>
+  <relatedItem displayLabel="Collection" type="host">
+    <titleInfo>
+      <title>Howard H. Baker Jr. Addendum</title>
+    </titleInfo>
+    <identifier type="local">MPA.101.001</identifier>
+  </relatedItem>
+  <accessCondition type="use and reproduction">Public domain.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_mpabaker_870</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+  </recordInfo>
+  <url>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A870</url>
 </mods>

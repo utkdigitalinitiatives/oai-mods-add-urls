@@ -1,46 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.2" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-2.xsd">
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.5" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd">
+  <identifier type="local">mpabaker_982</identifier>
+  <identifier type="local">mpabaker:982</identifier>
+  <identifier type="local">0012_003587_000232</identifier>
+  <name>
+    <namePart>Unknown</namePart>
+    <role>
+      <roleTerm authority="marcrelator" type="text" valueURI="http://id.loc.gov/vocabulary/relators/">Creator</roleTerm>
+    </role>
+  </name>
   <titleInfo>
     <title>Joy Baker, Barbara Bush and Lady Bird Johnson at Senate Wives' Luncheon</title>
   </titleInfo>
-  <name>
-    <namePart>unknown</namePart>
-    <role>
-      <roleTerm type="text">creator</roleTerm>
-    </role>
-  </name>
   <typeOfResource>still image</typeOfResource>
-  <genre authority="dct">image</genre>
-  <subject>
-    <topic>Baker, Joy Dirksen</topic>
-  </subject>
-  <subject>
-    <topic>Bush, Barbara, 1925-</topic>
-  </subject>
-  <subject>
-    <topic>Johnson, Lady Bird, 1912-2007</topic>
-  </subject>
   <originInfo>
-    <publisher>The University of Tennessee Libraries, Knoxville</publisher>
-  </originInfo>
-  <originInfo>
-    <dateOther>1981</dateOther>
+    <dateCreated>1981</dateCreated>
+    <dateCreated encoding="edtf" keyDate="yes">1981</dateCreated>
   </originInfo>
   <physicalDescription>
-    <internetMediaType>image/jpeg</internetMediaType>
+    <form authority="aat" valueURI="http://vocab.getty.edu/aat/300046300">photographs</form>
+    <digitalOrigin>reformatted digital</digitalOrigin>
   </physicalDescription>
-  <identifier type="local">0012_003587_000232</identifier>
-  <relatedItem type="original">
+  <language>
+    <languageTerm authority="iso639-2b" type="code">zxx</languageTerm>
+  </language>
+  <location>
+    <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
+  </location>
+  <subject>
+    <name>
+      <namePart>Baker, Joy Dirksen</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n83146999">
+      <namePart>Bush, Barbara, 1925-</namePart>
+    </name>
+  </subject>
+  <subject>
+    <name authority="naf" valueURI="http://id.loc.gov/authorities/names/n50038949">
+      <namePart>Johnson, Lady Bird, 1912-2007</namePart>
+    </name>
+  </subject>
+  <relatedItem displayLabel="Project" type="host">
     <titleInfo>
-      <title>Howard H. Baker Jr. Papers, MPA.101.001. The University of Tennessee Libraries, Special Collections, Knoxville</title>
+      <title>Photographs from the Life and Career of Howard Baker</title>
     </titleInfo>
-  </relatedItem>
-  <relatedItem>
     <location>
       <url>http://digital.lib.utk.edu/collections/bakercollection</url>
     </location>
-    <identifer type="uri">http://digital.lib.utk.edu/collections/bakercollection</identifer>
+    <abstract>Howard Baker, Jr., was a U.S. Senator from East Tennessee. Perhaps more than any other United States senator, he is known for his civility and non-partisanship in American politics. A Republican, Baker rose to national fame by investigating Richard Nixon during the televised Watergate hearings. He went on to become minority and majority leader of the Senate and one of Ronald Reagan</abstract>
   </relatedItem>
-  <accessCondition>The copyright interests for this photograph remain with the creator. For more information, contact Special Collections at special@utk.edu.</accessCondition>
-  <identifier>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A982</identifier>
+  <relatedItem displayLabel="Collection" type="host">
+    <titleInfo>
+      <title>Howard H. Baker Jr. Addendum</title>
+    </titleInfo>
+    <identifier type="local">MPA.101.001</identifier>
+  </relatedItem>
+  <accessCondition type="use and reproduction">The copyright interests in this item remain with the creator. For more information, contact Special Collections at special@utk.edu.</accessCondition>
+  <recordInfo>
+    <recordIdentifier>record_mpabaker_982</recordIdentifier>
+    <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+    </languageOfCataloging>
+    <recordOrigin>Created and edited in general conformance to MODS Guidelines (Version 3.5).</recordOrigin>
+  </recordInfo>
+  <url>http://digital.lib.utk.edu/collections/islandora/object/mpabaker%3A982</url>
 </mods>

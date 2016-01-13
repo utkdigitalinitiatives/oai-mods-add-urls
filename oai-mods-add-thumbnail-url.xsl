@@ -87,6 +87,16 @@
         </xsl:choose>
     </xsl:template>
     
+    <!-- 
+        this template corrects an apparent problem some of the MODS exports.
+        there is an identifier element in relatedItem - it shouldn't be there
+        and this template drops it from the identity transform.
+        
+        note: the problem element is 'identifer'. :)
+    -->
+    <xsl:template match="/mods:mods/mods:relatedItem/mods:identifer[@type='uri']"/>
+    
+    
     <!-- language: watch it!! -->
     <xsl:template match="language">
         <xsl:copy>
