@@ -41,13 +41,13 @@
                 <xsl:attribute name="usage">
                     <xsl:value-of select="'primary display'"/>
                 </xsl:attribute>
-                <xsl:value-of select="following::mods:identifier[starts-with(.,'http://')]"/>
+                <xsl:value-of select="following::mods:identifier[starts-with(.,'http')]"/>
             </xsl:element>
             <xsl:element name="url">
                 <xsl:attribute name="access">
                     <xsl:value-of select="'preview'"/>
                 </xsl:attribute>
-                <xsl:value-of select="concat(following::mods:identifier[starts-with(.,'http://')],'/datastream/TN/view')"/>
+                <xsl:value-of select="concat(following::mods:identifier[starts-with(.,'http')],'/datastream/TN/view')"/>
             </xsl:element>
         </xsl:copy>
     </xsl:template>
@@ -60,7 +60,7 @@
         there's a test to make sure that we don't add a second
         mods:location if there's already one.
     -->
-    <xsl:template match="/mods:mods/mods:identifier[starts-with(.,'http://')]">
+    <xsl:template match="/mods:mods/mods:identifier[starts-with(.,'http')]">
         <xsl:choose>
             <!-- do we already have a top-level mods:location? -->
             <xsl:when test="/mods:mods/mods:location"/>
