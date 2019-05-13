@@ -28,12 +28,10 @@
         mods:relatedItem.
     -->
     <xsl:template match="mods:location[not(parent::mods:relatedItem)]">
-        <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
-            <!--
-                constructing elements to avoid copied namespaces.
-                also, i'm a bit lazy.
-            -->
+        <location>
+            <xsl:copy-of select="mods:physicalLocation"/>
+            <xsl:copy-of select="mods:shelfLocator"/>
+            <!-- Add urls where they are allowed-->
             <xsl:element name="url">
                 <xsl:attribute name="access">
                     <xsl:value-of select="'object in context'"/>
@@ -49,7 +47,9 @@
                 </xsl:attribute>
                 <xsl:value-of select="concat(following::mods:identifier[starts-with(.,'http')],'/datastream/TN/view')"/>
             </xsl:element>
-        </xsl:copy>
+            <xsl:copy-of select="mods:holdingSimple"/>
+            <xsl:copy-of select="mods:holdingExternal"/>
+        </location>
     </xsl:template>
     
     <!-- 
